@@ -51,9 +51,11 @@ body {
     align-items: center;
 }
 
-.navbar-branding img {
-    height: 32px;
-    width: auto;
+.navbar-branding .devlogo {
+     width: 40px;
+    height: 25px;
+    font-weight: 700;
+    border-radius: inherit;
 }
 
 .navbar-left li a {
@@ -66,6 +68,7 @@ body {
 
 .navbar-left li a:hover {
     color: #2d6a4f;
+    text-decoration: underline;
 }
 
 /* Right side area */
@@ -80,17 +83,17 @@ body {
     display: flex;
     align-items: center;
     background-color: #f1f3f5;
-    border-radius: 40px;
-    padding: 6px 12px;
-    gap: 8px;
+    border-radius: 20px;
+    padding: 4px 8px;
+    gap: 6px;
 }
 
 .navbar-search input {
     border: none;
     background: transparent;
-    padding: 8px 12px;
+    padding: 1px 3px;
     font-size: 0.85rem;
-    width: 200px;
+    width: 150px;
     outline: none;
     color: #1e2a3a;
 }
@@ -123,23 +126,21 @@ body {
     text-decoration: none;
     font-size: 0.9rem;
     font-weight: 500;
-    padding: 6px 12px;
-    border-radius: 30px;
+    padding: 4px 8px;
     transition: all 0.2s;
 }
 
 .navbar-anonymous:first-of-type {
-    background-color: #eef2f6;
     color: #1f2d3d;
 }
 
 .navbar-anonymous:last-of-type {
-    background-color: #2d6a4f;
-    color: white;
+    color: #2c3e50;
 }
 
 .navbar-anonymous:last-of-type:hover {
-    background-color: #1f543e;
+    color: #2c3e50;
+    text-decoration: underline;
 }
 
 /* Mobile nav hidden */
